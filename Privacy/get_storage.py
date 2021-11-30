@@ -1,7 +1,7 @@
 from web3 import Web3, HTTPProvider
 
 
-provider = Web3.HTTPProvider('https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161')
+provider = Web3.HTTPProvider('rinkeby infura url goes here')
 w3 = Web3(provider)
 vic = Web3.toChecksumAddress("0xffffffffffffffffffffffffffffffffffffffff")
 store = w3.eth.getStorageAt(vic, 5)
