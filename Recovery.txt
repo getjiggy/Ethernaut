@@ -1,3 +1,4 @@
 For this challenge, you locate the address that the contract was deployed by backtracking the transactions on ethscan. 
 Then send the following function call to self destruct the contract and recover the funds:
 0x00f55d9d000000000000000000000000ffffffffffffffffffffffffffffffffffffffff (replace f's with address)
+
